@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Stop Watch</h1>
+        <span id="value">00:00:00</span>
+        <div class="button-container">
+          <button class="btn decrease" onclick="startTimer()">Start</button>
+          <button class="btn reset" onclick="stopTimer()">Stop</button>
+          <button class="btn increase" onclick="resetTimer()">Reset</button>
+        </div>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
